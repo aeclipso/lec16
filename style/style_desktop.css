@@ -1,0 +1,100 @@
+@media (min-width: 1440px){
+    body::before{
+        background-image: url("../img/large.png");
+        background-size: 100%;
+    }
+
+    #chkmn-1 + label>img, #chkmn-1{
+        width: 0;
+        height: 0;
+        display: none;
+    }
+
+    .menu-list{
+        width: 69%;
+    }
+
+    input[type="checkbox"], nav>a{
+        display: inline-block;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .text-menu::before{
+        width: 65px;
+        height: 80px;
+        display: inline;
+        background-image: url("../img/logo-large.png");
+    }
+
+    nav>a{
+        color:  #9f9f9f;
+        text-decoration: none;
+        margin-right: 3.4%;
+        white-space: nowrap;
+        font-size: 18px;
+    }
+
+    nav>a:first-child{
+        display: block;
+        margin: auto 0;
+        color: #9f9f9f;
+    }
+
+    nav>a:hover{
+        text-decoration: none;
+        color: white;
+    }
+
+    .text-menu{
+        width: 100%;
+    }
+
+    .white_db{
+        width: 70px;
+        height: 4px;
+        background-color: white;
+        position: absolute;
+        top: 44px;
+        left: 60px;
+    }
+
+    .main_cont{
+        margin-left: 215px;
+    }
+
+    .links-bot{
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    .links-bot>a {
+        width: 20%;
+    }
+
+    .form-sub>p{
+        font-size: 35px;
+        line-height: 53px;
+        width: 30em;
+        height: 161px;
+    }
+
+    .form-sub{
+        margin-bottom: 90px;
+    }
+
+    .inpt, .mgn-btn{
+        width: 300px;
+        height: 50px;
+    }
+
+    .form-sub>form{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+}

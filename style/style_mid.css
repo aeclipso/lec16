@@ -1,0 +1,171 @@
+@media (min-width: 768px){
+    body::before{
+        background-image: url("../img/middle.png");
+        background-size: 100%;
+    }
+
+    #chkmn-1 + label>img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .menu-list{
+        display: flex;
+        margin-left: 40px;
+    }
+
+    input[type="checkbox"], nav>a{
+        display: none;
+    }
+
+    .text-menu {
+        font-size: 18px;
+    }
+
+    nav>a:first-child{
+        display: block;
+        margin-left: 25px;
+        margin-right: 22px;
+        margin-top: 10px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .white_db{
+        width: 60px;
+        height: 4px;
+        background-color: white;
+        position: absolute;
+        top: 50px;
+        left: 20px;
+    }
+
+    .main_cont{
+        height: 750px;
+    }
+    h1{
+        height: 300px;
+        width: 600px;
+        font-size: 90px;
+        line-height: 100px;
+        margin-left: 93px;
+    }
+
+    .links-top, .links-bot{
+        flex-direction: row;
+        padding-left: 95px;
+    }
+
+    .links-top{
+        margin-bottom: 81px;
+    }
+    .links-bot{
+        margin-bottom: 85px;
+        flex-wrap: wrap;
+    }
+
+    .links>div>a{
+        font-size: 18px;
+    }
+
+    .links-bot>a{
+        width: 33%;
+    }
+
+    .links-top>a>span:last-child .stars>span, .links-bot>a>span:last-child{
+        font-size: 24px;
+    }
+
+    .links-bot>a:last-child{
+        margin-top: 19px;
+    }
+
+    .link-ico{
+        margin-right: 51px;
+    }
+
+    .link-ico>img{
+        width: 50px;
+        height: 50px;
+        margin-right: 22px;
+    }
+
+    .link-ico>span{
+        vertical-align: middle;
+        display: table-cell;
+        vertical-align: middle;
+   }
+
+    .form-sub>p{
+        width: 534px;
+        height: 116px;
+        font-size: 25px;
+        text-align: center;
+        line-height: 38px;
+        letter-spacing: .3px;
+        margin-left: 15.2%;
+        margin-right: 15.2%;
+    }
+    .form-sub>p>span{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .inpt{
+        width: 180px;
+        height: 55px;
+        border-radius: 10px;
+        border: none;
+        margin: 53px 15px 0 15px;
+        font-size: 17px;
+    }
+
+    .frm-blc:before{
+        content: '';
+        position: absolute;
+        top: 75px;
+        left: 25px;
+        margin: 0 auto;
+        width: 35px;
+        height: 35px;
+    }
+
+    .form-sub>form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mgn-btn {
+        width: 450px;
+        height: 55px;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        font-size: 17px;
+    }
+
+    .mgn-btn>button{
+        font-size: 17px;
+    }
+
+    footer{
+        display: flex;
+        background-color: #404754;
+        height: 130px;
+        flex-direction: row;
+        font-size: 20px;
+        flex-wrap: wrap;
+        padding-left: 30px;
+    }
+
+    footer>a{
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+
+    footer>span{
+        display: inline-block;
+        width: 100%;
+    }
+}
